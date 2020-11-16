@@ -47,7 +47,16 @@ h4 {
 .navbar {
   background-color: rgba(0, 0, 0, 0.2);
 }
+.navbar-brand {
+  display: none;
+}
+.navbar-toggler-icon {
+  background-image: url('../img/hammer.svg');
+}
 
+.btn {
+  padding: 1.3rem 1.7rem;
+}
 .btn-primary {
   background-color: #D92323;
   border: none;
@@ -96,6 +105,7 @@ h4 {
   }
 
 .gallery-item {
+  width: 100%;
   padding: 10px;
   text-align: center;
   -webkit-column-break-inside: avoid;
@@ -104,7 +114,7 @@ h4 {
 }
 
 .gallery-item img {
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -112,6 +122,12 @@ h4 {
 @media (max-width: 767.98px) {
   h1 {
     font-size: 3rem;
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-brand {
+    display: block;
   }
   .jumbotron {
     background-position: right;
