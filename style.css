@@ -16,39 +16,35 @@ a {
   color: #333;
 }
 
+h1 {
+
+}
+
+h2 {
+  color: #FFF;
+  font-weight: 600;
+}
+
+h4 {
+  color: #FFF;
+  font-weight: 500;
+}
+
 .jumbotron {
   height: 100%;
   background-image: url('img/jumbotron.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.details {
-  width: 500px;
-  height: 100%;
-  float: right;
-}
-
-.title {
   margin-bottom: 0;
-  font-size: 4rem;
 }
 
-.subtitle {
-  margin-top: 0;
-  font-size: 1.5rem;
+#services {
+  background: rgb(40,43,46);
+  background: radial-gradient(circle, rgba(40,43,46,1) 0%, rgba(0,0,0,1) 100%);
 }
+
 
 @media (max-width: 767.98px) {
-  .details {
-    float: none;
-  }
-  .container {
-    background-size: cover;
-    background-position: left;
-  }
-  .info {
-    font-size: 1.5rem;
-  }
+
 }
