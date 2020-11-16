@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #D92323;
+}
+
+.nav-link {
+  color: #FFF !important;
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+.black {
+  color: #333;
+}
+.white {
+  color: #FFF;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+  display: none;
+}
+.navbar-toggler-icon {
+  background-image: url('../img/hammer.svg');
+}
+
+.btn {
+  padding: 1.3rem 1.7rem;
+}
+.btn-primary {
+  background-color: #D92323;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #BF1C1C;
+}
+
+.jumbotron {
+  height: 100%;
+  background-image: url('../img/jumbotron.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+#services {
+  padding: 5rem 0rem;
+  background: rgb(40,43,46);
+  background: radial-gradient(circle at bottom, rgba(40,43,46,1) 0%, rgba(0,0,0,1) 80%);
+}
+
+#whyus {
+  padding: 5rem 0rem;
+  background-color: #DEDEDE;
+}
+
+#contacts {
+  padding: 6rem 0rem;
+  background-color: #333333;
+  background-image: url('../img/logo-footer.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.gallery {
+  -webkit-column-count: 4;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 4;
+  -moz-column-gap: 10px;
+  column-count: 4;
+  column-gap: 10px;
+  }
+
+.gallery-item {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+}
+
+.gallery-item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-brand {
+    display: block;
+  }
+  .jumbotron {
+    background-position: right;
+  }
+  #contacts {
+    background-size: contain;
+    background-position: bottom;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+}
