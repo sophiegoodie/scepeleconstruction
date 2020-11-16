@@ -71,6 +71,9 @@ h4 {
 
 #contacts {
   background-color: #333333;
+  background-image: url('img/logo-footer.svg');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 
