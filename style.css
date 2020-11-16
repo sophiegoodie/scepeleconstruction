@@ -16,18 +16,39 @@ a {
   color: #333;
 }
 
-h1 {
+.nav-link {
+  color: #FFF !important;
+  font-size: 0.9rem;
+}
 
+h1 {
+  font-weight: 700;
+  font-size: 5rem;
 }
 
 h2 {
-  color: #FFF;
   font-weight: 600;
 }
 
 h4 {
-  color: #FFF;
   font-weight: 500;
+}
+
+.black {
+  color: #333;
+}
+.white {
+  color: #FFF;
+}
+
+.btn-primary {
+  background-color: #D92323;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #BF1C1C;
 }
 
 .jumbotron {
@@ -41,7 +62,15 @@ h4 {
 
 #services {
   background: rgb(40,43,46);
-  background: radial-gradient(circle, rgba(40,43,46,1) 0%, rgba(0,0,0,1) 100%);
+  background: radial-gradient(circle at bottom, rgba(40,43,46,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#whyus {
+  background-color: #DEDEDE;
+}
+
+#contacts {
+  background-color: #333333;
 }
 
 
