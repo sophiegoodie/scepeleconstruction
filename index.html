@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css">
     <!-- Custom styling -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Lightbox Styling -->
+    <link rel="stylesheet" href="css/simple-lightbox.min.css" />
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <a class="navbar-brand" href="#">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +26,7 @@
       <div class="container">
         <ul class="navbar-nav justify-content-center ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-uppercase" href="#why-vaulted">Services</a>
+            <a class="ml-5 nav-link text-uppercase" href="#why-vaulted">Services</a>
           </li>
           <li class="nav-item">
             <a class="ml-5 nav-link text-uppercase" href="#liquidity-event">Why choose us</a>
@@ -40,7 +42,7 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 col-xs-12">
           <h1 class="mb-4 mt-5 white">S.CEPELE CONTRUCTION</h1>
           <h4 class="mb-4 white">Something cool about you</h4>
           <a href="" class="btn btn-primary mb-4">Request a quote</a>
@@ -96,10 +98,31 @@
       <div class="container">
         <h2 class="mb-5 black">Why Choose Us</h2>
         <p>Add text here</p>
+
+        <div class="gallery">
+            <a class="gallery-item" href="img/gallery/full/01.png"><img class="img-fluid" src="img/gallery/thumb/01.png" alt="" title="" /></a>
+            <a class="gallery-item" href="img/gallery/full/02.png"><img class="img-fluid" src="img/gallery/thumb/02.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/03.png"><img class="img-fluid" src="img/gallery/thumb/03.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/04.png"><img class="img-fluid" src="img/gallery/thumb/04.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/05.png"><img class="img-fluid" src="img/gallery/thumb/05.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/06.png"><img class="img-fluid" src="img/gallery/thumb/06.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/07.png"><img class="img-fluid" src="img/gallery/thumb/07.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/08.png"><img class="img-fluid" src="img/gallery/thumb/08.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/09.png"><img class="img-fluid" src="img/gallery/thumb/09.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/01.png"><img class="img-fluid" src="img/gallery/thumb/10.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/11.png"><img class="img-fluid" src="img/gallery/thumb/11.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/12.png"><img class="img-fluid" src="img/gallery/thumb/12.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/13.png"><img class="img-fluid" src="img/gallery/thumb/13.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/14.png"><img class="img-fluid" src="img/gallery/thumb/14.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/15.png"><img class="img-fluid" src="img/gallery/thumb/15.png" alt="" title=""/></a>
+            <a class="gallery-item" href="img/gallery/full/16.png"><img class="img-fluid" src="img/gallery/thumb/16.png" alt="" title=""/></a>
+            <div class="clear"></div>
+        </div>
+
       </div>
     </section>
 
-    <section id="contacts">
+    <footer id="contacts">
       <div class="container">
         <h2 class="mb-4 white">Contacts</h2>
         <div class="row text-left">
@@ -110,9 +133,14 @@
           </div>
         </div>
       </div>
-    </section>
-
-  <script src="js/simple-lightbox.js?v2.4.1"></script>
+    </footer>
+  <!-- Lightbox script -->
+  <script src="js/simple-lightbox.min.js"></script>
+  <script>
+      (function() {
+          var $gallery = new SimpleLightbox('.gallery a', {});
+      })();
+  </script>
   <script src="vendors/bootstrap-4.5.0/js/jquery-3.5.1.min.js"></script>
   <script src="vendors/bootstrap-4.5.0/js/popper.min.js"></script>
   <script src="vendors/bootstrap-4.5.0/js/bootstrap.min.js"></script>
