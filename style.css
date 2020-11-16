@@ -15,6 +15,9 @@ a {
   text-decoration: none;
   color: #333;
 }
+a:hover {
+  color: #D92323;
+}
 
 .nav-link {
   color: #FFF !important;
@@ -61,15 +64,18 @@ h4 {
 }
 
 #services {
+  padding: 5rem 0rem;
   background: rgb(40,43,46);
-  background: radial-gradient(circle at bottom, rgba(40,43,46,1) 0%, rgba(0,0,0,1) 100%);
+  background: radial-gradient(circle at bottom, rgba(40,43,46,1) 0%, rgba(0,0,0,1) 80%);
 }
 
 #whyus {
+  padding: 5rem 0rem;
   background-color: #DEDEDE;
 }
 
 #contacts {
+  padding: 6rem 0rem;
   background-color: #333333;
   background-image: url('img/logo-footer.svg');
   background-repeat: no-repeat;
