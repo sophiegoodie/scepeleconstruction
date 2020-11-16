@@ -1,8 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
   width: 100%;
   color: #333;
-  font-family: 'Arial';
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -10,13 +16,12 @@ a {
   color: #333;
 }
 
-.container {
+.jumbotron {
   height: 100%;
-  background-image: url('img/logo-large.svg');
-  background-size: contain;
+  background-image: url('img/jumbotron.png');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
 .details {
