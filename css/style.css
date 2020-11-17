@@ -131,7 +131,7 @@ h4 {
     display: block;
   }
   .jumbotron {
-    background-position: right;
+    background-position: left;
   }
   #contacts {
     background-size: contain;
