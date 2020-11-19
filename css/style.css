@@ -129,7 +129,7 @@ h4 {
   }
   #contacts {
     background-size: contain;
-    background-position: bottom;
+    background-position: bottom right;
   }
   .gallery {
     display: flex;
