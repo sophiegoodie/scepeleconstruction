@@ -154,5 +154,11 @@ h4 {
     flex-wrap: wrap;
     justify-content: space-around;
     }
+  #instafeed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
 }
