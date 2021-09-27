@@ -102,6 +102,23 @@ h4 {
   column-gap: 10px;
   }
 
+#instafeed {
+  -webkit-column-count: 4;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 4;
+  -moz-column-gap: 10px;
+  column-count: 4;
+  column-gap: 10px;
+}
+#instafeed img {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+}
+
 .gallery-item {
   width: 100%;
   padding: 10px;
