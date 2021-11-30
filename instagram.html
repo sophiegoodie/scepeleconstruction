@@ -49,7 +49,7 @@
     <script type="text/javascript">
     var feed = new Instafeed({
       accessToken: 'IGQVJYZAERkS1BZAUXdDXzdUQ0o1cDVNUC0tMG11NktETnAtVG5VZADI0Qk9mcUxDejdaMlczNjFYOXl2eFV6YjAwcjJETkI5VnhjMWdLNFZA0SVBCZAHp6bmNrVzdadU54U1d4clQ3QWNXN09vU3BfTW80QwZDZD',
-      template: '<a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}" />{{caption}}</a>',
+      template: '<div><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}" /></a><p class="p-2">{{caption}}</p></div>',
       limit: 200,
     });
     feed.run();

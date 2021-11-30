@@ -120,10 +120,14 @@
 
     <section id="whyus">
       <div class="container">
-        <h2 class="mb-5 black">Why Choose Us</h2>
-        <p></p>
+        <h2 class="mb-4 black">Why Choose Us</h2>
+        <!-- <p>S Cepele Construction has always operated under strong values aimed at exceeding client needs. Our communication channels are always open—our relationship with our clients begins on the first day of contact, and only ends once they’re fully satisfied with our work.<br>
+          When you hire our services, you can count on us for the results you want and need. Get in touch today, and discover the advantage of working with S Cepele Construction
+        </p> -->
 
-        <div class="gallery">
+        <div id="instafeed"></div>
+
+        <!-- <div class="gallery">
             <a class="gallery-item" href="img/gallery/full/01.png"><img class="img-fluid" src="img/gallery/thumb/01.png" alt="" title="" /></a>
             <a class="gallery-item" href="img/gallery/full/02.png"><img class="img-fluid" src="img/gallery/thumb/02.png" alt="" title=""/></a>
             <a class="gallery-item" href="img/gallery/full/03.png"><img class="img-fluid" src="img/gallery/thumb/03.png" alt="" title=""/></a>
@@ -141,7 +145,7 @@
             <a class="gallery-item" href="img/gallery/full/15.png"><img class="img-fluid" src="img/gallery/thumb/15.png" alt="" title=""/></a>
             <a class="gallery-item" href="img/gallery/full/16.png"><img class="img-fluid" src="img/gallery/thumb/16.png" alt="" title=""/></a>
             <div class="clear"></div>
-        </div>
+        </div> -->
 
       </div>
     </section>
@@ -170,5 +174,16 @@
   <script src="vendors/bootstrap-4.5.0/js/jquery-3.5.1.min.js"></script>
   <script src="vendors/bootstrap-4.5.0/js/popper.min.js"></script>
   <script src="vendors/bootstrap-4.5.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/instafeed.min.js"></script>
+  <!-- Instafeed script -->
+  <script type="text/javascript">
+    var feed = new Instafeed({
+      accessToken: 'IGQVJYZAERkS1BZAUXdDXzdUQ0o1cDVNUC0tMG11NktETnAtVG5VZADI0Qk9mcUxDejdaMlczNjFYOXl2eFV6YjAwcjJETkI5VnhjMWdLNFZA0SVBCZAHp6bmNrVzdadU54U1d4clQ3QWNXN09vU3BfTW80QwZDZD',
+      template: '<div><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}" /></a><p class="p-2">{{caption}}</p></div>',
+      limit: 200,
+    });
+    feed.run();
+  </script>
+
 </body>
 </html>

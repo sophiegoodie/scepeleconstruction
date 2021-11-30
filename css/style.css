@@ -118,6 +118,13 @@ h4 {
   -moz-column-break-inside: avoid;
   column-break-inside: avoid;
 }
+#instafeed p {
+  font-size: 0.85rem;
+  break-inside: avoid-column;
+}
+#instafeed div {
+  break-inside: avoid-column;
+}
 
 .gallery-item {
   width: 100%;
