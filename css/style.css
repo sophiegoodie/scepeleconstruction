@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   color: #333;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -17,11 +18,11 @@ a {
   color: #333;
 }
 a:hover {
-  color: #D92323;
+  color: #d92323;
 }
 
 .nav-link {
-  color: #FFF !important;
+  color: #fff !important;
   font-size: 0.9rem;
 }
 
@@ -42,32 +43,33 @@ h4 {
   color: #333;
 }
 .white {
-  color: #FFF;
+  color: #fff;
 }
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .navbar-toggler-icon {
-  background-image: url('../img/hammer.svg');
+  background-image: url("../img/hammer.svg");
 }
 
 .btn {
   padding: 1.3rem 1.7rem;
 }
 .btn-primary {
-  background-color: #D92323;
+  background-color: #d92323;
   border: none;
   border-radius: 0;
 }
 
-.btn-primary:hover, .btn-primary:focus {
-  background-color: #BF1C1C;
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #bf1c1c;
 }
 
 .jumbotron {
   height: 100%;
-  background-image: url('../img/jumbotron.png');
+  background-image: url("../img/jumbotron.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,19 +78,19 @@ h4 {
 
 #services {
   padding: 5rem 0rem;
-  background: rgb(40,43,46);
-  background: radial-gradient(circle at bottom, rgba(40,43,46,1) 0%, rgba(0,0,0,1) 80%);
+  background: rgb(40, 43, 46);
+  background: radial-gradient(circle at bottom, rgba(40, 43, 46, 1) 0%, rgba(0, 0, 0, 1) 80%);
 }
 
 #whyus {
   padding: 5rem 0rem;
-  background-color: #DEDEDE;
+  background-color: #dedede;
 }
 
 #contacts {
   padding: 6rem 0rem;
   background-color: #333333;
-  background-image: url('../img/logo-footer.svg');
+  background-image: url("../img/logo-footer.svg");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -100,7 +102,7 @@ h4 {
   -moz-column-gap: 10px;
   column-count: 4;
   column-gap: 10px;
-  }
+}
 
 #instafeed {
   -webkit-column-count: 4;
@@ -128,7 +130,7 @@ h4 {
 
 .gallery-item {
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   text-align: center;
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
@@ -139,7 +141,6 @@ h4 {
   width: 100%;
   margin-bottom: 10px;
 }
-
 
 @media (max-width: 767.98px) {
   h1 {
@@ -160,12 +161,11 @@ h4 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    }
+  }
   #instafeed {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-
 }
