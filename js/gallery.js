@@ -7,7 +7,7 @@ window.addEventListener("load", function () {
   for (let i = 0; i <= images; i++) {
     const filename = i.toString().padStart(2, "0") + ".jpg";
     content += `
-        <a class="gallery-item" href="img/gallery/full/${filename}"><img class="img-fluid" src="img/gallery/thumb/${filename}" alt="" title="" /></a>
+        <a class="gallery-item" href="img/gallery/full/${filename}"><img class="img-fluid" src="img/gallery/thumb/${filename}" alt="" title="" loading="lazy"/></a>
         `;
   }
 
