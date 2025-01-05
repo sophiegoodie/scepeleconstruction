@@ -1,12 +1,13 @@
+const images = 39;
 window.addEventListener("load", function () {
   const gallery = this.document.getElementById("gallery_container");
   let content = "";
 
   // Add images from img/gallery/tiny
-  for (let i = 0; i <= 20; i++) {
+  for (let i = 0; i <= images; i++) {
     const filename = i.toString().padStart(2, "0") + ".jpg";
     content += `
-        <a class="gallery-item" href="img/gallery/tiny/${filename}"><img class="img-fluid" src="img/gallery/tiny/${filename}" alt="" title="" /></a>
+        <a class="gallery-item" href="img/gallery/full/${filename}"><img class="img-fluid" src="img/gallery/thumb/${filename}" alt="" title="" /></a>
         `;
   }
 
