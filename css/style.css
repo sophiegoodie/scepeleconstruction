@@ -72,6 +72,20 @@ h4 {
   background-color: #bf1c1c;
 }
 
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(217, 35, 35, 0.5);
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #a61a1a;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(217, 35, 35, 0.5);
+}
+
 .jumbotron {
   position: relative;
   height: 100%;
