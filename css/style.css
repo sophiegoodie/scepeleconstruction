@@ -172,7 +172,8 @@ h4 {
 }
 .sl-close,
 .sl-prev,
-.sl-next {
+.sl-next,
+.sl-counter {
   color: #ffffff !important;
 }
 
