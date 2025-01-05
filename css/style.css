@@ -148,6 +148,15 @@ h4 {
   margin-bottom: 10px;
 }
 
+.sl-overlay {
+  background-color: #000000 !important;
+}
+.sl-close,
+.sl-prev,
+.sl-next {
+  color: #ffffff !important;
+}
+
 @media (max-width: 767.98px) {
   h1 {
     font-size: 2.5rem;
