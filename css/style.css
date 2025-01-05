@@ -53,6 +53,7 @@ h4 {
 .navbar.scrolled {
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 .navbar-toggler-icon {
   background-image: url("../img/hammer.svg");
@@ -97,13 +98,13 @@ h4 {
 }
 
 #services {
-  padding: 5rem 0rem;
+  padding: 6rem 0rem;
   background: rgb(40, 43, 46);
   background: radial-gradient(circle at bottom, rgba(40, 43, 46, 1) 0%, rgba(0, 0, 0, 1) 80%);
 }
 
 #whyus {
-  padding: 5rem 0rem;
+  padding: 6rem 0rem;
   background-color: #dedede;
 }
 
@@ -111,8 +112,9 @@ h4 {
   padding: 6rem 0rem;
   background-color: #333333;
   background-image: url("../img/logo-footer.svg");
+  background-size: auto 90%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: bottom right;
 }
 
 .gallery {
@@ -163,7 +165,10 @@ h4 {
 }
 
 .sl-overlay {
-  background-color: #000000 !important;
+  opacity: 1 !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
 }
 .sl-close,
 .sl-prev,
